@@ -15,6 +15,7 @@ class UserController extends Controller
         $status = 200;
         $data = array(
                 'status' => $status,
+                'title' => 'User class called',
                 'user_id' => $id,
                 'message' => $message
         );    
