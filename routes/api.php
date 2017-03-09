@@ -19,5 +19,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::post('/test', 'Auth\JsonTestController@test');
+Route::get('/test', 'Auth\JsonTestController@test');
 Route::post('/user', 'Auth\UserController@index');
 Route::get('/user', 'Auth\UserController@index');
